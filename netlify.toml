@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Proxy reverso: reescreve /data/* para o servidor do CIEX,
+# contornando o CORS em produção (o proxy do Vite só vale no dev).
+[[redirects]]
+  from = "/data/*"
+  to = "https://hidrodinamica.ciex.org.br/data/:splat"
+  status = 200
+  force = true
