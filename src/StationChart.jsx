@@ -68,7 +68,6 @@ const ChartTooltip = ({ active, payload, label, mae, cota }) => {
     <div
       style={{
         background: '#fff',
-        border: '1px solid #ccc',
         borderRadius: 4,
         padding: '8px 12px',
         fontSize: 13,
