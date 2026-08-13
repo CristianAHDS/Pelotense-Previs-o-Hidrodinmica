@@ -26,7 +26,7 @@
   color: #f8fafc;
   padding: 4px 9px;
   margin-bottom: 5px;
-  background: rgba(30, 41, 59, 0.55);
+  background: rgba(51, 65, 85, 0.8);
   backdrop-filter: blur(8px) saturate(160%);
   -webkit-backdrop-filter: blur(8px) saturate(160%);
 
@@ -80,7 +80,7 @@
   gap: 16px;
   height: 58px;
   padding: 12px 18px;
-  background: rgba(30, 41, 59, 0.55);
+  background: rgba(51, 65, 85, 0.8);
   backdrop-filter: blur(26px) saturate(180%);
   -webkit-backdrop-filter: blur(26px) saturate(180%);
 
@@ -128,7 +128,7 @@
   align-items: center;
   gap: 14px;
   padding: 0 18px;
-  background: rgba(30, 41, 59, 0.55);
+  background: rgba(51, 65, 85, 0.8);
   backdrop-filter: blur(26px) saturate(180%);
   -webkit-backdrop-filter: blur(26px) saturate(180%);
 
@@ -258,7 +258,7 @@
   bottom: 26px;
   z-index: 10;
   padding: 14px 16px;
-  background: rgba(30, 41, 59, 0.55);
+  background: rgba(51, 65, 85, 0.8);
   backdrop-filter: blur(26px) saturate(180%);
   -webkit-backdrop-filter: blur(26px) saturate(180%);
 
@@ -316,7 +316,7 @@
 }
 
 .mapboxgl-popup-content {
-  background: rgba(30, 41, 59, 0.55);
+  background: rgba(51, 65, 85, 0.8);
   backdrop-filter: blur(26px) saturate(180%);
   -webkit-backdrop-filter: blur(26px) saturate(180%);
 
@@ -329,8 +329,8 @@
 }
 
 .mapboxgl-popup-tip {
-  border-top-color: rgba(30, 41, 59, 0.55);
-  border-bottom-color: rgba(30, 41, 59, 0.55);
+  border-top-color: rgba(51, 65, 85, 0.8);
+  border-bottom-color: rgba(51, 65, 85, 0.8);
 }
 
 .mapboxgl-popup-close-button {
